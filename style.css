@@ -1,3 +1,7 @@
+* {
+    font-family: sans-serif;
+}
+
 .header {
     background-color: black;
     height: 70px;
@@ -24,7 +28,6 @@
 a {
     text-decoration: none;
     font-size: 16px;
-    font-family: sans-serif;
     text-align: center;
     color: #00b8d4;
 }
@@ -55,4 +58,67 @@ a:hover {
     font-size: 10px;
     font-family: sans-serif;
     color: white;
+}
+
+.home {
+    margin-top: 128px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about {
+    margin-top: 128px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.projects {
+    margin-top: 128px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-cards {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+
+}
+
+.project-card {
+    margin-left: 50px;
+}
+
+.project-form {
+    margin-bottom: 128px;
+}
+
+.select-type {
+    margin-top: 10px;
+}
+
+.email {
+    width: 50%;
+}
+
+.concept-input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 100px;
+    width: 100%;
+}
+
+input[type=checkbox] {
+    transform: scale(1.5);
 }

@@ -13,7 +13,71 @@
       </ul>
     </div>
 
-    <p>Home</p>
+    <div class="projects">
+      <h2>Projects</h2>
+      <div>
+        <p>Here are some of my current and past projects.</p>
+      </div>
+      <div class="project-cards">
+        <div class="project-card">
+          <h5>Cocktail Searcher</h5>
+          <div>Image holder</div>
+          <p>
+            This project is a Cocktail Search App that browses through all
+            existing cocktails using TheCocktailDB API. Users can view the
+            image, ingredients and measures, and instructions of the cocktail
+            they searched. I utilized dynamic routing for individual cocktails
+            using React Router.
+          </p>
+        </div>
+        <div class="project-card">
+          <h5>Monocle</h5>
+          <div>Image holder</div>
+          <p>
+            Monocle is a software that summarizes lengthy privacy policy
+            documents down to the most important information regarding safety
+            and privacy of the user. It displays information such as what data
+            they collect, the purpose of data being collected, how it is stored,
+            and affiliated companies who have access to the data.
+          </p>
+        </div>
+        <div class="project-card">
+          <h5>GIS Mapping Software</h5>
+          <div>Image holder</div>
+          <p>
+            This project is a city mapping GIS software developed in C++ through
+            using the OpenStreetMap Database. It was developed by myself and two
+            other teammates using git version control. By utilizing the EZGL
+            graphics library, we rendered geographical features and many points
+            of interests in a single city.
+          </p>
+        </div>
+      </div>
+      <div class="project-form">
+        <p>Need a full stack web developer? Tell me about your project.</p>
+        <form>
+          <label for="email">Email:</label>
+          <input class="email" type="text" id="email" name="email" /><br />
+          <select class="select-type" name="type" id="type">
+            <option value="personal-website">Personal Website</option>
+            <option value="eCommerce">eCommerce</option>
+            <option value="game">Game</option>
+          </select>
+          <textarea
+            class="concept-input"
+            type="text"
+            id="concept"
+            name="concept"
+            placeholder="Enter your project concept here"
+          ></textarea>
+          <input type="checkbox" id="consent" name="consent" value="true" />
+          <label for="consent">You agree to receive emails from me</label>
+          <br /><br />
+          <button type="button" onclick="alert('Hello world!')">Send</button>
+        </form>
+      </div>
+    </div>
+
     <div class="footer">
       <a class="footer-text">Copyright 2024 by jungjon4.</a>
     </div>
